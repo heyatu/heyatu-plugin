@@ -1,0 +1,12 @@
+{
+  "name": "heyatu",
+  "interface": { "displayName": "Hey Atu" },
+  "plugins": [
+    {
+      "name": "hey-atu",
+      "source": { "source": "local", "path": "./" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

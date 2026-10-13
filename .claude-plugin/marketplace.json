@@ -1,0 +1,17 @@
+{
+  "name": "heyatu",
+  "owner": {
+    "name": "Hey Atu",
+    "email": "support@heyatu.com"
+  },
+  "plugins": [
+    {
+      "name": "hey-atu",
+      "source": "./",
+      "description": "Let Claude work on your own computer."
+    }
+  ],
+  "metadata": {
+    "description": "Hey Atu: let Claude work on your own computer."
+  }
+}

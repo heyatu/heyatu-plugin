@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "hey-atu",
+  "version": "0.1.0",
+  "description": "Let ChatGPT and Codex work on your own computer: find and read files, make edits and run commands on your Mac or Linux machine. You approve each app on your computer.",
+  "author": { "name": "Hey Atu", "email": "support@heyatu.com", "url": "https://heyatu.com" },
+  "homepage": "https://heyatu.com/start/mcp",
+  "repository": "https://github.com/heyatu/heyatu-plugin",
+  "license": "MIT",
+  "keywords": ["computer", "files", "terminal", "remote", "mac", "linux"],
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/connect-my-computer/SKILL.md",
+      "interface": {
+        "displayName": "Hey Atu",
+        "shortDescription": "Work on files and run commands on your own computer",
+        "longDescription": "Hey Atu connects ChatGPT to your own Mac or Linux computer. ChatGPT can find and read files, make edits, and run commands and scripts there, with the same eight tools that the Pi coding agent uses. Your computer runs the Hey Atu agent; you link it to your Google account once, and you approve each AI app on your computer. Files stay on your computer.",
+        "developerName": "Hey Atu",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://heyatu.com/start/mcp",
+        "privacyPolicyURL": "https://heyatu.com/privacy",
+        "termsOfServiceURL": "https://heyatu.com/terms",
+        "defaultPrompt": [
+          "Use Hey Atu to find the five largest files in my Downloads folder.",
+          "Use Hey Atu to show what changed in my project folder this week.",
+          "Use Hey Atu to run the tests in my project and explain the one that fails."
+        ],
+        "brandColor": "#D9803A",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}
