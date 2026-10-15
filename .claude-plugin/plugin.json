@@ -1,8 +1,8 @@
 {
   "name": "hey-atu",
   "displayName": "Hey Atu",
-  "version": "0.1.1",
-  "description": "Let Claude work on your own computer: find and read files, make edits and run commands on your Mac or Linux machine, with Pi's tools. You approve each app on your computer.",
+  "version": "0.1.2",
+  "description": "Let Claude work on your own computer: find and read files, make edits and run commands on your Mac or Linux machine. You approve each app on your computer.",
   "author": { "name": "Hey Atu", "email": "support@heyatu.com", "url": "https://heyatu.com" },
   "homepage": "https://heyatu.com/start/mcp",
   "repository": "https://github.com/heyatu/heyatu-plugin",

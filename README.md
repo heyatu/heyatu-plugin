@@ -2,8 +2,7 @@
 
 Hey Atu lets Claude, ChatGPT and Codex work on your own Mac or Linux computer.
 Ask in the AI app that you already use: it can find and read files, make
-edits, and run commands, scripts and tests on your computer, with the same
-eight tools that the Pi coding agent uses.
+edits, and run commands, scripts and tests on your computer.
 
 ## What is in this plugin
 
@@ -22,7 +21,8 @@ eight tools that the Pi coding agent uses.
 2. Add the Hey Atu plugin in your AI app and sign in with the same Google
    account. In Claude Code:
    `/plugin install hey-atu --marketplace heyatu/heyatu-plugin`
-3. Approve the app on your computer when it shows the same code.
+3. Select **Allow** in the Hey Atu window on your computer. It shows the
+   same code as the sign-in page.
 
 Then ask, for example: "Find the five largest files in my Downloads folder."
 

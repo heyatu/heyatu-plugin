@@ -15,13 +15,15 @@ Hey Atu has three parts. Setup needs all three, in this order:
    ```
 
 2. **The account.** Setup opens a page in the computer's browser. The user
-   signs in with Google, checks that the page shows the same code as Terminal,
-   and selects **Link this computer**. A new account can start the free trial
-   on the next page. An account holds up to 3 computers.
+   checks that the page shows the same code as Terminal, and selects
+   **Continue with Google**. The computer is then linked. An account holds up
+   to 3 computers.
 3. **This AI app.** The user connects Hey Atu in this app and signs in with
-   the same Google account. The app shows a code. The user approves the app
-   where the same code shows: the dialog on the computer, or the Hey Atu app
-   on a paired phone. On the computer, `pi-remote mcp approve <code>` works too.
+   the same Google account. The sign-in page shows a code, and the computer
+   shows a Hey Atu window with the same code. The user selects **Allow** in
+   that window. On the computer, `heyatu mcp approve <code>` works too.
+   When this app waited for a computer during setup, the link allows it, and
+   the sign-in goes on by itself.
 
 Then the user can try: "List the folders in my home folder."
 
@@ -32,8 +34,10 @@ Then the user can try: "List the folders in my home folder."
 | The Hey Atu tools are missing | Connect Hey Atu in this app again, and approve it |
 | "The computer is offline" | Wake or start the computer. Hey Atu runs after the user logs in |
 | "no active plan" | Start the trial or renew the plan at https://heyatu.com/account |
-| "Hey Atu is off for AI apps" | On the computer, run `pi-remote mcp on` |
-| The sign-in page waits for a computer | Do step 1 on the computer. If Hey Atu is installed, run `pi-remote account link` |
+| "Hey Atu is off for AI apps" | On the computer, run `heyatu mcp on` |
+| The sign-in page waits for a computer | Do step 1 on the computer, with the same Google account. If Hey Atu is installed, run `heyatu account link`. The page goes on by itself |
+| The sign-in page shows the wrong Google account | Select **Use another Google account** on that page |
+| No Hey Atu window on the computer | On the computer, run `heyatu mcp approve <code>` with the code from the sign-in page |
 | The account has 3 computers | Remove one at https://heyatu.com/account |
 
 ## Tell the user before they approve
@@ -45,4 +49,4 @@ Then the user can try: "List the folders in my home folder."
 - A person who controls the AI app account can use the computer. Protect it
   with 2-step verification.
 - To stop all access: remove the computer at https://heyatu.com/account, or
-  run `pi-remote mcp off` on the computer.
+  run `heyatu mcp off` on the computer.
