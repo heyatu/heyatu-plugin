@@ -42,3 +42,15 @@ its own policy.
 - Terms: https://heyatu.com/terms
 - Security: https://heyatu.com/security
 - Support: support@heyatu.com
+
+## Package for ChatGPT
+
+```sh
+git archive --format=zip -o hey-atu.zip HEAD
+```
+
+The ZIP has `plugin.json`, `mcp.json`, `skills/` and `assets/` at its root.
+`.gitattributes` keeps the Claude and marketplace files out: ChatGPT refused a
+package with them. `mcp.json` follows the Agent Plugins 1.0.0 schema and names
+no OAuth settings; ChatGPT finds them by discovery. Upload in ChatGPT:
+Plugins → Add → Upload plugin archive.

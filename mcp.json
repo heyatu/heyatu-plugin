@@ -3,12 +3,7 @@
   "mcpServers": {
     "hey-atu": {
       "type": "streamable-http",
-      "url": "https://heyatu.com/mcp",
-      "extensions": {
-        "com.openai": {
-          "auth": { "type": "oauth", "client": { "mode": "dcr" } }
-        }
-      }
+      "url": "https://heyatu.com/mcp"
     }
   }
 }
