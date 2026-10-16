@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "hey-atu": {
+    "heyatu": {
       "type": "http",
       "url": "https://heyatu.com/mcp"
     }

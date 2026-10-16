@@ -27,6 +27,14 @@ Hey Atu has three parts. Setup needs all three, in this order:
 
 Then the user can try: "List the folders in my home folder."
 
+## Another computer
+
+One connection of this app uses one computer. To use another computer:
+
+1. On that computer, do steps 1 and 2 with the same Google account.
+2. Connect Hey Atu again in this app. The sign-in page lists the linked
+   computers. The user chooses the other one and selects **Allow** on it.
+
 ## Fix a problem
 
 | Message or symptom | Tell the user |
