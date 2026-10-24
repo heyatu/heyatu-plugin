@@ -13,6 +13,10 @@ edits, and run commands, scripts and tests on your computer.
   does not follow instructions that it finds in files.
 - **Skill `connect-my-computer`**: setup steps and fixes for the connection.
 
+The plugin has no scripts, hooks or programs of its own. It connects only to
+`https://heyatu.com/mcp`. The skills can show you the Hey Atu install command,
+but you run it yourself, on your computer.
+
 ## Use it
 
 1. On your computer, run
@@ -20,14 +24,15 @@ edits, and run commands, scripts and tests on your computer.
    and link the computer to your Google account on the page that opens.
 2. Add the Hey Atu plugin in your AI app and sign in with the same Google
    account. In Claude Code:
-   `/plugin install hey-atu --marketplace heyatu/heyatu-plugin`
-3. Select **Allow** in the Hey Atu window on your computer. It shows the
-   same code as the sign-in page.
+   `/plugin marketplace add heyatu/heyatu-plugin`, then
+   `/plugin install hey-atu@heyatu`.
+3. On your computer, select **Allow** in the Hey Atu menu bar panel or window.
+   It shows the same code as the sign-in page.
 
 Then ask, for example: "Find the five largest files in my Downloads folder."
 
-A Hey Atu plan is necessary. A new account can try it free for 7 days.
-Details: https://heyatu.com/start/mcp
+Each account gets 100 free tool calls. After that, a Hey Atu plan is
+necessary. Plans: https://heyatu.com/pricing
 
 ## Data
 
@@ -42,15 +47,3 @@ its own policy.
 - Terms: https://heyatu.com/terms
 - Security: https://heyatu.com/security
 - Support: support@heyatu.com
-
-## Package for ChatGPT
-
-```sh
-git archive --format=zip -o hey-atu.zip HEAD
-```
-
-The ZIP has `plugin.json`, `mcp.json`, `skills/` and `assets/` at its root.
-`.gitattributes` keeps the Claude and marketplace files out: ChatGPT refused a
-package with them. `mcp.json` follows the Agent Plugins 1.0.0 schema and names
-no OAuth settings; ChatGPT finds them by discovery. Upload in ChatGPT:
-Plugins → Add → Upload plugin archive.

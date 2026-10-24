@@ -1,8 +1,0 @@
-# The OpenAI package is `git archive --format=zip HEAD`: plugin.json, mcp.json,
-# skills/ and assets/ at the root. ChatGPT refused a package with these files
-# (owner test 2026-10-15). Claude and Codex read them from the repository.
-.claude-plugin export-ignore
-.agents export-ignore
-.mcp.json export-ignore
-.gitignore export-ignore
-.gitattributes export-ignore

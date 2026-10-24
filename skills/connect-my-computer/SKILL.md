@@ -19,9 +19,10 @@ Hey Atu has three parts. Setup needs all three, in this order:
    **Continue with Google**. The computer is then linked. An account holds up
    to 3 computers.
 3. **This AI app.** The user connects Hey Atu in this app and signs in with
-   the same Google account. The sign-in page shows a code, and the computer
-   shows a Hey Atu window with the same code. The user selects **Allow** in
-   that window. On the computer, `heyatu mcp approve <code>` works too.
+   the same Google account. The sign-in page shows a code, or says
+   "Confirm in the Hey Atu menu bar". On a Mac, the Hey Atu menu bar panel
+   or a Hey Atu window shows the same code. The user selects **Allow** there.
+   On any computer, `heyatu mcp approve <code>` works too.
    When this app waited for a computer during setup, the link allows it, and
    the sign-in goes on by itself.
 
@@ -41,11 +42,11 @@ One connection of this app uses one computer. To use another computer:
 |---|---|
 | The Hey Atu tools are missing | Connect Hey Atu in this app again, and approve it |
 | "The computer is offline" | Wake or start the computer. Hey Atu runs after the user logs in |
-| "no active plan" | Start the trial or renew the plan at https://heyatu.com/account |
+| "no active plan" | Tell the user that this account has no active plan. Plan information: https://heyatu.com/pricing |
 | "Hey Atu is off for AI apps" | On the computer, run `heyatu mcp on` |
 | The sign-in page waits for a computer | Do step 1 on the computer, with the same Google account. If Hey Atu is installed, run `heyatu account link`. The page goes on by itself |
 | The sign-in page shows the wrong Google account | Select **Use another Google account** on that page |
-| No Hey Atu window on the computer | On the computer, run `heyatu mcp approve <code>` with the code from the sign-in page |
+| No Hey Atu panel or window on the computer | On the computer, run `heyatu mcp approve <code>` with the code from the sign-in page |
 | The account has 3 computers | Remove one at https://heyatu.com/account |
 
 ## Tell the user before they approve

@@ -1,10 +1,11 @@
 {
   "name": "hey-atu",
   "displayName": "Hey Atu",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Let Claude work on your own computer: find and read files, make edits and run commands on your Mac or Linux machine. You approve each app on your computer.",
   "author": { "name": "Hey Atu", "email": "support@heyatu.com", "url": "https://heyatu.com" },
   "homepage": "https://heyatu.com/start/mcp",
+  "privacyPolicyUrl": "https://heyatu.com/privacy",
   "repository": "https://github.com/heyatu/heyatu-plugin",
   "license": "MIT",
   "keywords": ["computer", "files", "terminal", "remote", "mac", "linux"]
