@@ -6,6 +6,9 @@
   "author": { "name": "Hey Atu", "email": "support@heyatu.com", "url": "https://heyatu.com" },
   "homepage": "https://heyatu.com/start/mcp",
   "privacyPolicyUrl": "https://heyatu.com/privacy",
+  "termsOfServiceUrl": "https://heyatu.com/terms",
+  "supportUrl": "https://heyatu.com/support",
+  "documentationUrl": "https://heyatu.com/setup-guide",
   "repository": "https://github.com/heyatu/heyatu-plugin",
   "license": "MIT",
   "keywords": ["computer", "files", "terminal", "remote", "mac", "linux"]
