@@ -14,14 +14,14 @@ edits, and run commands, scripts and tests on your computer.
 - **Skill `connect-my-computer`**: setup steps and fixes for the connection.
 
 The plugin has no scripts, hooks or programs of its own. It connects only to
-`https://heyatu.com/mcp`. The skills can show you the Hey Atu install command,
-but you run it yourself, on your computer.
+`https://heyatu.com/mcp`. You install the Hey Atu agent yourself, from
+https://heyatu.com/start/mcp.
 
 ## Use it
 
-1. On your computer, run
-   `curl -fsSL https://heyatu.com/install | sh -s -- --for=mcp`
-   and link the computer to your Google account on the page that opens.
+1. On your computer, open https://heyatu.com/start/mcp and follow the
+   install steps. Then link the computer to your Google account on the page
+   that opens.
 2. Add the Hey Atu plugin in your AI app and sign in with the same Google
    account. In Claude Code:
    `/plugin marketplace add heyatu/heyatu-plugin`, then

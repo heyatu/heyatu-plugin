@@ -8,11 +8,8 @@ description: Set up Hey Atu so that this AI app can use the user's own computer,
 Hey Atu has three parts. Setup needs all three, in this order:
 
 1. **The computer.** The user opens https://heyatu.com/start/mcp on the
-   computer, not on a phone, and runs the install command there:
-
-   ```sh
-   curl -fsSL https://heyatu.com/install | sh -s -- --for=mcp
-   ```
+   computer, not on a phone, and follows the install steps on that page.
+   Do not give an install command from memory: the page has the current one.
 
 2. **The account.** Setup opens a page in the computer's browser. The user
    checks that the page shows the same code as Terminal, and selects
